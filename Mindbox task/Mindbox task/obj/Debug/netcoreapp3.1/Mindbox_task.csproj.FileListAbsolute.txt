@@ -1,0 +1,8 @@
+I:\Проги\Mindbox task\Mindbox task\bin\Debug\netcoreapp3.1\Mindbox_task.deps.json
+I:\Проги\Mindbox task\Mindbox task\bin\Debug\netcoreapp3.1\Mindbox_task.dll
+I:\Проги\Mindbox task\Mindbox task\bin\Debug\netcoreapp3.1\Mindbox_task.pdb
+I:\Проги\Mindbox task\Mindbox task\obj\Debug\netcoreapp3.1\Mindbox_task.AssemblyInfoInputs.cache
+I:\Проги\Mindbox task\Mindbox task\obj\Debug\netcoreapp3.1\Mindbox_task.AssemblyInfo.cs
+I:\Проги\Mindbox task\Mindbox task\obj\Debug\netcoreapp3.1\Mindbox_task.csproj.CoreCompileInputs.cache
+I:\Проги\Mindbox task\Mindbox task\obj\Debug\netcoreapp3.1\Mindbox_task.dll
+I:\Проги\Mindbox task\Mindbox task\obj\Debug\netcoreapp3.1\Mindbox_task.pdb

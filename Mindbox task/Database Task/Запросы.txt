@@ -1,0 +1,36 @@
+Создание таблиц
+
+Create table Products (
+id int auto_increment primary key,
+"Name" TEXT );
+
+Create table Categories(
+id int auto_increment primary key,
+"Name" TEXT );
+
+Create table ProdCat (
+ProdID int foreign key references Products(id),
+CatID int foreign key references Categories(id),
+primary key (ProdID, CatID);
+
+Заполнение таблиц (учитывая автоинкремент)
+
+Insert into Products Values
+('Яблоко','Огурец','Сыр','Помидор');
+
+Insert into Categories Values
+('Фрукты','Овощи','Морепродукты','Хозяйственные товары');
+
+Insert into ProdCat Values 
+(1,1),
+(2,2),
+(4,2);
+
+Запрос
+
+Select P.Name, C.Name
+From Products P
+Left join ProdCat PC
+on P.id = PC.ProdID
+left join Categories C
+on PC.CatID = C.id;
